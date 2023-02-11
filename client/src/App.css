@@ -1,0 +1,79 @@
+body{
+  background-color: rgb(43,62,79);
+}
+.home{
+  text-align: center;
+}
+.container{
+  height:100vh;
+  width:100vw;
+  background-color: rgb(204,161,24);
+}
+.container form{
+  display: grid;
+  width:30%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+.container form input{
+  margin-bottom: 10px;
+}
+.book{
+  padding:20px;
+  background-color: rgb(234,238,242); 
+  border :10px;
+  box-shadow: 5px 5px 5px #888;
+  border-radius:20px;
+}
+.book:hover{
+  cursor: pointer;
+}
+.book-image{
+  width: 25vw;
+  height:25vw;
+}
+.book-image img{
+  height: 100%;
+  width:100%;
+}
+.hidden{
+  position: fixed;
+  left:0px;
+  top:0px;
+  height:100vh;
+  width:100vw;
+  background-color: black;
+  color: whitesmoke;
+  padding:30px;
+
+}
+.hidden form {
+  display: grid;
+  width:50%;
+  row-gap: 10px;
+  margin: auto;
+}
+.hidden div{
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid white
+}
+.bookholder{
+      display:grid;
+      place-items: center;
+      grid-template-columns: 1fr 1fr 0.5fr;
+      row-gap: 10px;
+}
+button{
+  background-color: yellowgreen;
+  border:0px;
+  box-shadow: 5px 5px 10px #888;
+  margin: 0px 30px;
+}
+.add-btn{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
